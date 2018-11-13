@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--
+Template Name: Cytocean
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Registration Form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="..\layout\styles\layout.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="DM">
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+      <ul>
+        <li><i class="fa fa-phone"></i> +91 9574926575</li>
+        <li><i class="fa fa-envelope-o"></i> info@hostelcampus.in</li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li><a href="..\index.html"><i class="fa fa-lg fa-home"></i></a></li>
+  <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <div id="logo"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="..\index.html">R C HOSTEL</a></h1>
+      <p>complete management of Hostel</p>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="clear"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="..\index.html">Home</a></li>
+        <li><a href="about.html">About</a>
+        </li>
+        <li><a href="gallery1.html">Gallery</a>
+        <li><a class="drop" href="#">Cources</a>
+   <ul>
+            <li><a href="civil.html">Civil</a></li>
+            <li><a href="computer.html">Computer</a>
+            <li><a href="electrical.html">Electrical</a></li>
+      <li><a href="it.html">Information Technology</a></li>
+      <li><a href="mechanical.html">Mechanical</a></li>
+            <li><a href="pt.html">printing technology</a></li>
+            <li><a href="tm.html">Textile manufacturing</a></li>
+      <li><a href="tp.html">textile processing</a></li>
+          </ul>
+          </li>       
+        <li><a href="rform.html">Registration form</a></li>
+       
+      </ul>
+        <!-- ################################################################################################ -->
+    </nav>
+  </header>
+</div>
+<body bgcolor="violet">
+<form enctype="multipart/form-data" action="../controller/registrationController.php" method="POST">
+<table>
+<tr>
+<td>Name: </td>
+<td><input type="text" name="name" required/></td>
+</tr>
+<tr>
+<td>gender:</td>
+<td><input type="radio" name="gender" value="0"  />Male<br>
+        <input type="radio" name="gender" value="1" />Female</td></tr>
+<tr>
+<td>Date_of_birth: </td>
+<td><input type="date" name="date_of_birth" required/></td>
+</tr>
+<tr>
+<td>Contact_no: </td>
+<td><input type="text" name="contact_no"  max=10 required/></td>
+</tr>
+<tr>
+<td>Parent_no: </td>
+<td><input type="text" name="parent_no" max=10 required/></td>
+</tr>
+<tr>
+<td>email_id: </td>
+<td><input type="email" name="email_id" required/></td>
+</tr>
+ <tr>
+<td>department:</td><td><select name="department">department:
+                  <option>civil</option>
+    	  <option>computer</option> 
+                  <option>electrical</option>
+                  <option>it</option>
+                  <option>mechanical</option>
+                  <option>printing technology</option>
+                 <option>textile manufacturing</option>
+                 <option>textile processing</option></select></td>
+</tr>
+<tr>
+<td>shift:</td><td><input type="text" name="shift"  placeholder="morning or evening"  required/></td>
+</tr>
+<tr>
+<td>merit_no:</td><td><input type="text" name="merit_no"    required/></td>
+</tr>
+<tr>
+<td>address:</td><td><textarea name="address" rows="5" cols="10"   required/> </textarea></td>
+</tr>
+<tr>
+<td>Upload Photo: </td>
+<td><input name="upload_photo" type="file" /></td>
+</tr>
+<tr>
+<td>Upload receipt: </td>
+<td><input name="upload_receipt" type="file" /></td>
+</tr>
+ <tr>
+    <td><td><input type=checkbox value=a  required><a href="../terms-and-conditions-template.pdf">i accept all terms & conditions</a></td></td>
+</tr>
+<tr>
+
+<td> </td><br><br>
+<td><br><br><input type="submit" name="action"  value="Register"/></td>
+</tr>
+</table>
+</form>
+</center></center>
+<div class="wrapper row4">
+
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">R C HOSTEL</h6>
+      <nav>
+        <ul class="nospace">
+          <li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Online Shop</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </nav>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="http://dribble.com"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="http://googleplus.com"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Address</h6>
+      <ul class="nospace linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          RCTI hostel,opp sola civil,S.G highway Ahmedabad-380060
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +91 9574926575</li>
+        <li><i class="fa fa-envelope-o"></i> info@hostelcampus.in</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Comment</h6>
+     <form method="post" action="../controller/commentController.php" method="POST">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" name="comment" placeholder="your comment please,">
+          <input class="btmspace-15" type="text" value="" name="email" placeholder="Email">
+          <button type="submit" name="action"  value="insert_tp">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">hostelcampus.in</a></p>
+    <p class="fl_right">Designed by <a target="_blank" href="#" title="Free Website Templates">Dhaval & Meet</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+ <!-- SLIDER SCRIPTS LIBRARY -->
+    <script src="layout/styles/Slides-SlidesJS-3/examples/playing/js/jquery.slides.min.js"></script>
+    <!-- CUSTOM SCRIPT-->
+    <script>
+        $(document).ready(function () {
+            $('#slides').slidesjs({
+                width: 940,
+                height: 528,
+                play: {
+                    active: true,
+                    auto: true,
+                    interval: 4000,
+                    swap: true
+                }
+            });
+        });
+
+    </script>
+</div>
+
+</body>
+</html>
+
